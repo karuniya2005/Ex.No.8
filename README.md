@@ -1,55 +1,62 @@
-## Exp 8: Reproducing an Image Using Prompts for Image Generation
+# Exp 8: AI-Powered Art Style Transformation  
 
-# Date :
-# Reg. No. 
+### Date: 24.09.25
+### Reg. No.:21223240068
 
-## Aim:
-To demonstrate the ability of text-to-image generation tools to reproduce an existing image by crafting precise prompts. The goal is to identify key elements within the image and use these details to generate an image as close as possible to the original.
+---
 
-## Procedure:
-1.	Analyze the Given Image:
-○	Examine the image carefully, noting key elements such as:
-■	Objects/Subjects (e.g., people, animals, objects)
-■	Colors (e.g., dominant hues, contrasts)
-■	Textures (e.g., smooth, rough, glossy)
-■	Lighting (e.g., bright, dim, shadows)
-■	Background (e.g., outdoor, indoor, simple, detailed)
-■	Composition (e.g., focal points, perspective)
-■	Style (e.g., realistic, artistic, cartoonish)
-2.	Create the Basic Prompt:
-○	Write an initial, simple description of the image. For example, if the image shows a landscape, the prompt could be "A serene landscape with mountains and a river."
-3.	Refine the Prompt with More Detail:
-○	Add specific details such as colors, mood, and time of day. For example: "A serene landscape during sunset with purple mountains, a calm river reflecting the colors of the sky, and a few trees along the shore."
-4.	Identify Style and Artistic Influences:
-○	If the image has a particular style (e.g., impressionist painting, realistic photography, minimalistic), include that in the prompt. For example: "A serene landscape in the style of a watercolor painting with soft, blended colors."
-5.	Adjust and Fine-tune:
-○	Refine the prompt further by adding specific instructions about elements like textures, weather conditions, or any other distinctive features in the image. For example: "A serene landscape during sunset with purple mountains, a calm river reflecting the colors of the sky, a few trees along the shore, and soft, pastel tones in the clouds."
-6.	Generate the Image:
-○	Use the crafted prompt to generate the image in a text-to-image model (e.g., DALL·E, Stable Diffusion, MidJourney).
-7.	Compare the Generated Image with the Original:
-○	Assess how closely the generated image matches the original in terms of colors, composition, subject, and style. Note the differences and refine the prompt if necessary.
-## Tools/LLMs for Image Generation:
-●	DALL·E (by OpenAI): A text-to-image generation tool capable of creating detailed images from textual prompts.
-○	Website: DALL·E
-●	Stable Diffusion: An open-source model for generating images from text prompts, known for its flexibility and customizable outputs.
-○	Website: Stable Diffusion
-●	MidJourney: A popular AI tool for generating visually striking and creative images based on text descriptions.
-○	Website: MidJourney
-## Instructions:
-1.	Examine the Given Image: Study the image to understand its key features—objects, colors, lighting, composition, and any stylistic choices.
-2.	Write the Basic Prompt: Start with a simple description of the primary elements in the image (e.g., "A sunset over a mountain range").
-3.	Refine and Add Details: Improve the prompt by incorporating specifics like colors, shapes, textures, and style (e.g., "A sunset over purple mountains, with a golden sky and a calm river flowing through the valley").
-4.	Use the Selected Tool: Choose an image generation model (e.g., DALL·E, Stable Diffusion, or MidJourney) and input the refined prompt.
-5.	Iterate and Adjust: If the initial result isn't quite right, adjust the prompt further based on the differences observed between the generated and original image.
-6.	Save and Document: Save the generated image and document your prompt alongside any observations on how the output compares to the original.
-## Deliverables:
-1.	The Original Image: Provided image for reference.
-2.	The Final Generated Image: The image created using your refined prompt.
-3.	Prompts Used: The text prompts created during the experiment.
-4.	Comparison Report: A report highlighting the differences and similarities between the original and generated images, along with any adjustments made to the prompt.
+## Aim  
+To generate a stylized digital anime version of a given classic realism portrait using AI, while preserving the character’s original expression and pose.  
 
-## Conclusion:
-By using detailed and well-crafted prompts, text-to-image generation models can be effective in reproducing an image closely. The quality of the generated image depends on how accurately the prompt describes the image's key elements. The experiment demonstrates the importance of prompt refinement and iteration when working with AI tools to achieve desired outcomes. With practice, the model can generate images that closely match real-world visuals, which is useful for creative and practical applications.
+---
+
+## Procedure  
+1. Select a portrait image in **classic realism style** as the input.  
+2. Write a prompt describing how the portrait should be transformed into an anime style.  
+3. Ensure the prompt specifies:  
+   - Anime style (digital anime, cel-shaded, vibrant, etc.).  
+   - Retain character’s **expression and pose**.  
+   - Details like smooth line art, stylized coloring, or background preferences.  
+4. Example prompt:  
+   > *“Convert this classic realism portrait into a vibrant anime-style digital artwork. Keep the character’s original facial expression and pose intact, while applying anime-style shading, big expressive eyes, and stylized hair highlights.”*  
+5. Input the portrait and crafted prompt into the AI image-generation tool.  
+6. Generate and review the output.  
+7. Refine the prompt if needed to adjust colors, proportions, or artistic effects.  
+
+---
+
+## Instructions  
+- Use **style-specific keywords** (anime, manga, cel-shaded, vibrant colors).  
+- Mention what should **not change** (pose, expression, overall likeness).  
+- Use iterative prompting for better results.  
+- If required, add artist inspiration styles (e.g., *“inspired by Makoto Shinkai”* or *“Studio Ghibli-style”*).  
+
+---
+
+## Sample Input–Output Prompt Table  
+
+| Input (Classic Realism Portrait) | Prompt | Output (Anime Version) |
+|----------------------------------|--------|-------------------------|
+| Realism portrait of a young woman in formal attire, neutral background | *“Recreate this portrait in anime style with smooth digital shading, large expressive anime eyes, and stylized hair. Keep the original expression and pose exactly the same.”* | Anime-stylized digital portrait with vibrant colors, anime facial proportions, preserved pose and emotion |  
+
+<img width="1024" height="1024" alt="unnamed" src="https://github.com/user-attachments/assets/f96e2cb6-0d44-49c3-a680-2b82f5f99258" />
 
 
-## IMAGES: (CHOOSE ANY TWO BELOW AND REPRODUCE)
+
+| Realism portrait of an older gentleman with a gentle smile, dark background | *“Transform this portrait into an anime style while preserving his gentle smile and relaxed pose. Use soft anime shading, defined facial lines, and subtle highlights in the hair, with a simple dark-toned background.”* | Anime-style portrait of the gentleman with his smile intact, smoother shading, stylized hair, and preserved pose |  
+
+<img width="1024" height="1024" alt="unnamed" src="https://github.com/user-attachments/assets/2e0f1d8e-9e96-422d-a6b1-41d40eb8ee44" />
+
+
+| Realism portrait of a young boy with curious eyes, light background | *“Render this young boy's portrait in a cute anime style. Preserve his curious expression and slightly upward gaze. Give him large, innocent anime eyes and softly textured hair. The background should be a bright, stylized outdoor setting.”* | Cute anime-style portrait of a boy, keeping his curious expression and pose, with large eyes and a bright, stylized background |  
+
+<img width="1024" height="1024" alt="unnamed" src="https://github.com/user-attachments/assets/4b1edd89-d21a-4d4f-ab30-ae4dff28485f" />
+
+
+---
+
+## Conclusion  
+By carefully crafting prompts, a classic realism portrait can be successfully converted into a digital anime-style artwork, maintaining the subject’s **pose and expression** while transforming the overall aesthetic.  
+
+## Result 
+Thus prompt is executed successfully.
